@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "SimosachiApp",
+    "slug": "simosachiapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#508D4E"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#508D4E"
+      },
+      "package": "com.dendipurwanto12.SimosachiApp",
+      "googleServicesFile": "./android/app/google-services.json"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "510ae628-cb0e-492e-b5bb-9bb35411bdea"
+      }
+    },
+    "owner": "dendipurwanto12"
+  }
+}
